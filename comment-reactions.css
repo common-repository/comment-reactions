@@ -1,0 +1,13 @@
+.reactions .reaction, .reactions .show_all_reactions{border-radius:5px;border:1px solid #ccc;background:#fff;color:#333;text-transform:none;font-weight:normal;padding:.1em .2em;margin:0 .3em .3em 0;box-shadow:#f3f3f3 1px 1px 1px;min-width:1.9em}
+.reactions .reaction.reacted{border-color:#999;background-color:#eee;box-shadow:inset #ddd 1px 1px 1px}
+.reactions .reaction:focus{border-color:#000}
+.reactions .show_all_reactions{filter:gray;-webkit-filter:grayscale(100%)}
+.reactions .show_all_reactions.reacted{background:#fff;border-color:#666;box-shadow:none}
+.reactions .reaction.reacting{color:#bbb;background:#ccc}
+.reactions .reactions-count{position:relative;top:-2px;margin-left:1px}
+.reactions .reactions-num{color:#777;font-size:10px}
+.reactions .reactions-description{display:none}
+.reactions{position:relative}
+.reactions .all_reactions_wrapper{position:relative}
+.reactions #reactions_all{position:absolute;padding:.4em 0 .5em .5em;border:1px solid #ccc;border-radius:5px;background:#fff;top:1.42em;right:-5.6em;max-height:300px;width:13.3em;overflow:scroll;box-shadow:6px 6px 22px rgba(50,50,50,.2)}
+.reactions #reactions_all h2{margin:.6em 0 .3em;font-size:16px;font-family:helvetica, arial, sans-serif;color:#555}
